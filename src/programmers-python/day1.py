@@ -1,4 +1,4 @@
-# 중복된 숫자 개수
+# 1. 중복된 숫자 개수
 # 내가 쓴 답
 # def solution(array, n):
 #     answer = array
@@ -17,3 +17,12 @@ def solution(array, n):
 # 전달된 매개변수를 answer에 저장
 # array 에 n의 개수가 몇개인지 count 하기
 # 결과를 return하기
+
+# 2. 나머지 구하기
+# 내가 쓴 답
+def solution(num1, num2):
+    answer = num1 % num2
+    return answer
+# 답
+# 맞았다!!
+
