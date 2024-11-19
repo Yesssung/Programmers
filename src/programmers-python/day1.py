@@ -18,11 +18,30 @@ def solution(array, n):
 # array 에 n의 개수가 몇개인지 count 하기
 # 결과를 return하기
 
+
 # 2. 나머지 구하기
 # 내가 쓴 답
 def solution(num1, num2):
     answer = num1 % num2
     return answer
 # 답
-# 맞았다!!
+# PASS
 
+
+# 3. 문자열로 반환
+# 내가 쓴 답
+def solution(n):
+    answer = str(n)
+    return answer
+# PASS
+# 정수로 주어진 n을 str 붙여서 문자열로 반환!
+
+
+# 4. 홀짝에 따라 다른 값 반환하기
+# 내가 쓴 답
+# def solution(n):
+#     answer = 0
+#     if  n % 2 == 1 :
+#         return sum(range(1, n))
+#     else :
+#         return sum(range(1,n))
