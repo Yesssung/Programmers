@@ -41,7 +41,12 @@ from sqlalchemy.dialects.mysql import insert
 
 # 4. 홀짝에 따라 다른 값 반환하기
 # 모범 답안............
-def solution(n):
-    if n%2:
-        return sum(range(1,n+1,2))
-    return sum([i*i for i in range(2,n+1,2)])
+# def solution(n):
+#     if n%2:
+#         return sum(range(1,n+1,2))
+#     return sum([i*i for i in range(2,n+1,2)])
+
+# 5. 나이 출력
+def solution(age):
+    answer = 2022 - (age-1)
+    return answer
